@@ -43,6 +43,7 @@ public enum DataType implements OptionCodec.Codecable<DataType>
     FLOAT    (8,  FloatType.instance),
     INT      (9,  Int32Type.instance),
     TEXT     (10, UTF8Type.instance),
+    TIMESTAMP_V1(11, DateType.instance),
     TIMESTAMP(11, DateType.instance),
     UUID     (12, UUIDType.instance),
     VARCHAR  (13, UTF8Type.instance),
