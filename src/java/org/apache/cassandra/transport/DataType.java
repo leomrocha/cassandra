@@ -180,7 +180,7 @@ public enum DataType implements OptionCodec.Codecable<DataType>
         try
         {
             switch (entry.left)
-            {l
+            {
                 case CUSTOM:
                     return TypeParser.parse((String)entry.right);
                 case LIST:
